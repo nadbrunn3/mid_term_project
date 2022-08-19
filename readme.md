@@ -33,7 +33,7 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 
 ## 🥉 **Target Feature**
 
-1) # Grouping the classes together in GOOD, NEUTRAL and BAD:
+1) Grouping the classes together in GOOD, NEUTRAL and BAD:
 
 `rename = {'X': 'Good', 'C': 'Good', '0': 'Good', '1': 'Neutral', '2': 'Bad', '3': 'Bad', '5': 'Bad'}`
 
@@ -46,7 +46,7 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 - High corrletion between 'cnt_children' and 'cnt_family_member'
 - Because of the correlation the model will onyl consider 'cnt_children'
 
-## D**ata Processing**
+## **Data Processing**
 
 1. Train Test Split
 2. One Hot Encoding of categorical values
